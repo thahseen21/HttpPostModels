@@ -16,6 +16,23 @@
 
     <input type="file" id="file" />
 
+    <h4>Pause and play file upload</h4>
+
+    <input type="file" name="" id="pauseFile" />
+    <br/>
+    <button onclick="PauseAndContinueFileUpload()">Upload File</button>
+    <button onclick="stopFileUpload()">Pause File Upload</button>
+    <div class="progress" id="progress-bar">
+      <div
+        class="progress-bar"
+        id="uploadProgress"
+        role="progressbar"
+        aria-valuenow="50"
+        aria-valuemin="0"
+        aria-valuemax="100"
+      ></div>
+    </div>
+    
     <script src="./app.js"></script>
   </body>
 </html>

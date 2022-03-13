@@ -1,6 +1,6 @@
-C:\Users\thahseenn\Documents\Learning\HttpPostModels\bin\Debug\net5.0\HttpPostModels.dll
-C:\Users\thahseenn\Documents\Learning\HttpPostModels\bin\Debug\net5.0\HttpPostModels.pdb
-C:\Users\thahseenn\Documents\Learning\HttpPostModels\bin\Debug\net5.0\Microsoft.OpenApi.dll
-C:\Users\thahseenn\Documents\Learning\HttpPostModels\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
-C:\Users\thahseenn\Documents\Learning\HttpPostModels\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
-C:\Users\thahseenn\Documents\Learning\HttpPostModels\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:/Users/thahseenn/Documents/Learning/HttpPostModels/bin/Debug/net5.0/HttpPostModels.dll
+C:/Users/thahseenn/Documents/Learning/HttpPostModels/bin/Debug/net5.0/HttpPostModels.pdb
+C:/Users/thahseenn/Documents/Learning/HttpPostModels/bin/Debug/net5.0/Microsoft.OpenApi.dll
+C:/Users/thahseenn/Documents/Learning/HttpPostModels/bin/Debug/net5.0/Swashbuckle.AspNetCore.Swagger.dll
+C:/Users/thahseenn/Documents/Learning/HttpPostModels/bin/Debug/net5.0/Swashbuckle.AspNetCore.SwaggerGen.dll
+C:/Users/thahseenn/Documents/Learning/HttpPostModels/bin/Debug/net5.0/Swashbuckle.AspNetCore.SwaggerUI.dll

@@ -1,15 +1,15 @@
 {
   "version": 2,
-  "dgSpecHash": "y38aOzmWjn4em+YdKNZNZ+I/+G8w5F5yeCcvxcYw4XpQQQ5YMU6ff0beBW2pqcwqPcqJI7sl5BVSQYGA697/QQ==",
+  "dgSpecHash": "HbreiYCM1QD1JFj0OHg/S0HGt9PQF8JgSvf3ef92gM/0rEQdDVRnXBcvg3rG8RJ8DYBKklei+C2vRpOsNE9ZOw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\thahseenn\\Documents\\Learning\\HttpPostModels\\HttpPostModels.csproj",
+  "projectFilePath": "/Users/thahseen/Documents/learning/dotnet/HttpPostModels/HttpPostModels.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\thahseenn\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
-    "C:\\Users\\thahseenn\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
-    "C:\\Users\\thahseenn\\.nuget\\packages\\swashbuckle.aspnetcore\\5.6.3\\swashbuckle.aspnetcore.5.6.3.nupkg.sha512",
-    "C:\\Users\\thahseenn\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\5.6.3\\swashbuckle.aspnetcore.swagger.5.6.3.nupkg.sha512",
-    "C:\\Users\\thahseenn\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\5.6.3\\swashbuckle.aspnetcore.swaggergen.5.6.3.nupkg.sha512",
-    "C:\\Users\\thahseenn\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\5.6.3\\swashbuckle.aspnetcore.swaggerui.5.6.3.nupkg.sha512"
+    "/Users/thahseen/.nuget/packages/microsoft.extensions.apidescription.server/3.0.0/microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
+    "/Users/thahseen/.nuget/packages/microsoft.openapi/1.2.3/microsoft.openapi.1.2.3.nupkg.sha512",
+    "/Users/thahseen/.nuget/packages/swashbuckle.aspnetcore/5.6.3/swashbuckle.aspnetcore.5.6.3.nupkg.sha512",
+    "/Users/thahseen/.nuget/packages/swashbuckle.aspnetcore.swagger/5.6.3/swashbuckle.aspnetcore.swagger.5.6.3.nupkg.sha512",
+    "/Users/thahseen/.nuget/packages/swashbuckle.aspnetcore.swaggergen/5.6.3/swashbuckle.aspnetcore.swaggergen.5.6.3.nupkg.sha512",
+    "/Users/thahseen/.nuget/packages/swashbuckle.aspnetcore.swaggerui/5.6.3/swashbuckle.aspnetcore.swaggerui.5.6.3.nupkg.sha512"
   ],
   "logs": []
 }

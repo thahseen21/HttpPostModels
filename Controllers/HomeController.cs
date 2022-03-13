@@ -1,3 +1,4 @@
+using System.IO;
 using HttpPostModels.ViewModels;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
@@ -60,6 +61,52 @@ namespace HttpPostModels.Controllers
         public IActionResult InsertType7([FromForm] Type2 model)
         {
             return Ok();
+        }
+
+        //Not working
+        [HttpPost]
+        public IActionResult PauseFileUpload([FromForm] Type3 model)
+        {
+            try
+            {
+                if (model.File == null)
+                {
+                    return BadRequest();
+                }
+
+                //the path to save the incoming file
+                var pathToSave = Path.Combine(Directory.GetCurrentDirectory(), "Resources");
+
+                //Checking whether the folder exist or else create a folder using the pathToSave variable
+                if (!Directory.Exists(pathToSave))
+                {
+                    Directory.CreateDirectory(pathToSave);
+                }
+
+                //getting the file name from incoming file
+                var fileName = model.File.FileName;
+
+                //the final path where the file would save
+                var fullPath = Path.Combine(pathToSave, fileName);
+
+                // creates a stream for a file to read and write 
+                var stream = new FileStream(fullPath, FileMode.Create);
+
+                //writing the file to final directory
+                model.File.CopyTo(stream);
+
+                stream.Close();
+
+                //The path of the incoming file is added with the employee entity
+
+                return Ok();
+
+            }
+            catch (System.Exception ex)
+            {
+                // TODO
+                return BadRequest();
+            }
         }
 
     }
